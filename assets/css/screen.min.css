@@ -94,6 +94,7 @@ figcaption { font-style: italic; font-size: 90%; }
 	.columns-full { 	width: 100%; }
 	.columns-half { 	width: 49%; }
 	.row .columns-half:nth-of-type(even) { margin-right: 0; }
+	.post.columns-twothirds { width: auto; grid-column: span 2; }
 }
 
 @media screen and (min-width: 800px) {
